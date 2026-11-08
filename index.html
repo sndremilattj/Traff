@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Traff local</title>
+  <script>
+    function setTitle(t) { document.title = t || "Traff local"; }
+    function sendToJavaScript() { console.log("sendToJavaScript", arguments); }
+    function trace() { console.log("flash trace", arguments); }
+  </script>
+</head>
+<body>
+  <object width="980" height="560" data="main.swf" type="application/x-shockwave-flash">
+    <param name="movie" value="main.swf">
+    <param name="allowScriptAccess" value="always">
+    <param name="allowNetworking" value="all">
+  </object>
+</body>
+</html>

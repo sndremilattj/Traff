@@ -1,0 +1,44 @@
+
+body { background-color:#F7E488; font-family:Arial,Helvetica,sans-serif; }
+/*input,select { background-color:#DDE9AF; }*/
+
+/*a:link, a:visited, a:active { color:#E1BA77; text-decoration:none; }*/
+/*a:hover { color:#F87431; border-bottom:1px solid #F87431; text-decoration:none; }*/
+
+.box_red_header    { background: url("./box_red_header.png") no-repeat top center; height:26px; }
+.box_red_body      { background: url("./box_red_body.png") repeat-y top center; color:#FFFFFF; }
+.box_red_footer    { background: url("./box_red_footer.png") no-repeat top center; height:12px; }
+.box_blue_header   { background: url("./box_blue_header.png") no-repeat top center; height:26px; }
+.box_blue_body     { background: url("./box_blue_body.png") repeat-y top center; color:#FFFFFF; }
+.box_blue_footer   { background: url("./box_blue_footer.png") no-repeat top center; height:12px; }
+.box_green_header  { background: url("./box_green_header.png") no-repeat top center; height:26px; }
+.box_green_body    { background: url("./box_green_body.png") repeat-y top center; color:#FFFFFF; }
+.box_green_footer  { background: url("./box_green_footer.png") no-repeat top center; height:12px; }
+.box_yellow_header { background: url("./box_yellow_header.png") no-repeat top center; height:26px; }
+.box_yellow_body   { background: url("./box_yellow_body.png") repeat-y top center; color:#FFFFFF; }
+.box_yellow_footer { background: url("./box_yellow_footer.png") no-repeat top center; height:12px; }
+
+.heading { font-weight:bold; padding-top:10px; display:block; }
+li { padding-left: 0px; padding-top:5px; }
+
+table.datatable { background-color:#877408; }
+table.datatable td { background-color:#F7E488; padding:5px; }
+table.datatable th { background-color:#D7C468; padding:5px; }
+
+.hilite { color:#CB1F1F; font-weight:bold; font-size:18px; }
+.imgalign { vertical-align:middle; text-align:center; }
+
+body.member {
+  background-color:#A1C6E4;
+  font-family:Arial,Helvetica,sans-serif;
+  background-image:url("member/bg.jpg");
+  background-repeat:repeat-x;
+  background-position:top center;
+  border:0px;
+  padding:0px;
+}
+
+.windowtitle      { background-color: #000040; color: #FFFFFF; }
+.windowbackground { background-color: #F7E488; color: #FFFFFF; border: 1px solid #C0C0C0; }
+.windowborder     { background-color: #202040; color: #FFFFFF; }
+
